@@ -11,7 +11,7 @@ In this example, the `NotificationFactory` class is responsible for creating dif
 ## 📁 Project Structure
 ```mermaid
 graph LR
-    A[design-patterns-code]
+    A[factory/notifications]
     
     A --> B[factory/]
     B --> B5[notifications/]
@@ -20,22 +20,7 @@ graph LR
     B5 --> B53[factory.py]
     B5 --> B54[main.py]
     
-    A --> E[singleton/]
-    E --> E1[singleton.py]
-    E --> E2[test_singleton.py]
-    E --> E3[example.py]
-    E --> E4[README.md]
-
-    A --> C[tests/]
-    C --> C1[test_notifications.py]
-
-    A --> D[venv/]
-    D --> D1[Lib/]
-    D --> D2[Scripts/]
-    D --> D3[pyvenv.cfg]
-
-    A --> F[main.py]
-    A --> G[README.md]
+    
 ```    
 
 ## 📦 notifications/ Folder Breakdown
