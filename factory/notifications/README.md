@@ -14,10 +14,10 @@ graph LR
     A[factory/]
     
     A --> B[notifications/]
-    B1 --> B51[__init__.py]
-    B1 --> B52[notification.py]
-    B1 --> B53[factory.py]
-    B1 --> B54[main.py]
+    B --> B51[__init__.py]
+    B --> B52[notification.py]
+    B --> B53[factory.py]
+    B --> B54[main.py]
     
     
 ```    
