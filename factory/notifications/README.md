@@ -10,7 +10,7 @@ In this example, the `NotificationFactory` class is responsible for creating dif
 
 ## 📁 Project Structure
 graph TD
-    A[project-folder]
+    A[design-patterns-code]
     
     A --> B[notifications/]
     B --> B1[__init__.py]
@@ -22,8 +22,12 @@ graph TD
     C --> C1[test_notifications.py]
 
     A --> D[venv/]
-    A --> E[README.md]
+    D --> D1[Lib/]
+    D --> D2[Scripts/]
+    D --> D3[pyvenv.cfg]
 
+    A --> E[README.md]
+    
 ## 📦 notifications/ Folder Breakdown
 
 - `notification.py`:  
