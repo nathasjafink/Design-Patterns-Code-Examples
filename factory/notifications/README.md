@@ -11,14 +11,13 @@ In this example, the `NotificationFactory` class is responsible for creating dif
 ## 📁 Project Structure
 ```mermaid
 graph LR
-    A[factory/notifications]
+    A[factory/]
     
-    A --> B[factory/]
-    B --> B5[notifications/]
-    B5 --> B51[__init__.py]
-    B5 --> B52[notification.py]
-    B5 --> B53[factory.py]
-    B5 --> B54[main.py]
+    A --> B[notifications/]
+    B1 --> B51[__init__.py]
+    B1 --> B52[notification.py]
+    B1 --> B53[factory.py]
+    B1 --> B54[main.py]
     
     
 ```    
