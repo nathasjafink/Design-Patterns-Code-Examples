@@ -10,7 +10,7 @@ In this example, the `NotificationFactory` class is responsible for creating dif
 
 ## 📁 Project Structure
 ```mermaid
-graph TD
+graph LR
     A[project-folder]
     
     A --> B[notifications/]
