@@ -36,18 +36,32 @@ The goal of this repository is to help you **understand**, **visualize**, and **
 
 ## 📂 Project Structure
 
-```plaintext
-Design-Patterns-Code-Examples/
-├── notifications/
-│   ├── __init__.py
-│   ├── notification.py
-│   ├── factory.py
-│   └── main.py
-├── singleton/
-│   ├── singleton.py
-│   └── main.py
-├── tests/
-│   ├── test_notifications.py
-│   └── test_singleton.py (optional/test soon)
-├── README.md
-└── venv/ (optional virtual environment)
+```mermaid
+graph LR
+    A[design-patterns-code]
+    
+    A --> B[factory/]
+    B --> B5[notifications/]
+    B5 --> B51[__init__.py]
+    B5 --> B52[notification.py]
+    B5 --> B53[factory.py]
+    B5 --> B54[main.py]
+    
+    A --> E[singleton/]
+    E --> E1[singleton.py]
+    E --> E2[test_singleton.py]
+    E --> E3[example.py]
+    E --> E4[README.md]
+
+    A --> C[tests/]
+    C --> C1[test_notifications.py]
+
+    A --> D[venv/]
+    D --> D1[Lib/]
+    D --> D2[Scripts/]
+    D --> D3[pyvenv.cfg]
+
+    A --> F[main.py]
+    A --> G[README.md]
+```    
+
