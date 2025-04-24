@@ -17,10 +17,9 @@ Useful for things like:
 graph LR
     A[singleton/]
     
-    A --> E[singleton/]
-    E --> E1[singleton.py]
-    E --> E2[test_singleton.py]
-    E --> E3[example.py]
-    E --> E4[README.md]
+    A --> B1[singleton.py]
+    A --> B2[test_singleton.py]
+    A --> B3[example.py]
+    A --> B4[README.md]
 
 ```    
