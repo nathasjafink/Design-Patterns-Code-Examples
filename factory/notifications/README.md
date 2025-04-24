@@ -9,8 +9,9 @@ The **Factory Pattern** is a creational design pattern that provides an interfac
 In this example, the `NotificationFactory` class is responsible for creating different types of notification objects (like `EmailNotification` and `SMSNotification`) based on the provided input.
 
 ## 📁 Project Structure
+```mermaid
 graph TD
-    A[design-patterns-code]
+    A[project-folder]
     
     A --> B[notifications/]
     B --> B1[__init__.py]
@@ -27,7 +28,8 @@ graph TD
     D --> D3[pyvenv.cfg]
 
     A --> E[README.md]
-    
+```    
+
 ## 📦 notifications/ Folder Breakdown
 
 - `notification.py`:  
